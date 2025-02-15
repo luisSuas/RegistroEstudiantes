@@ -1,0 +1,114 @@
+/* EmpleadoLista.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4e4e80;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #e94560;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Contenedor de la lista */
+table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #0f3460;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px solid #1a1a2e;
+    font-size: 16px;
+}
+
+th {
+    background-color: #e94560;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #16213e;
+}
+
+tr:hover {
+    background-color: #533483;
+    color: #e0e0e0;
+}
+
+/* Botones con estilo oscuro y acentos vibrantes */
+.boton-agregar,
+.boton-editar,
+.boton-eliminar {
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* Botón Agregar */
+.boton-agregar {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.boton-agregar:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Botón Editar */
+.boton-editar {
+    background-color: #ffc107;
+    color: #1a1a2e;
+}
+
+.boton-editar:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Botón Eliminar */
+.boton-eliminar {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.boton-eliminar:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Contenedor de los botones de agregar */
+.botones-agregar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Asegura que los elementos de la tabla estén alineados de manera uniforme */
+td, th {
+    text-align: center;
+}
